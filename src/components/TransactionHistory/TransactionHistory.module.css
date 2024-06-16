@@ -1,0 +1,23 @@
+table {
+  background-color: black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+th {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+th,
+tr {
+  height: 32px;
+  width: 200px;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
